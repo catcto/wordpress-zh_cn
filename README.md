@@ -1,4 +1,4 @@
-# wordpress-zh_CN
+# wordpress-zh_cn
 
 The latest version 5.4.0-php7.2-apache
 
@@ -21,7 +21,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: catcto/wordpress-zh_CN
+    image: catcto/wordpress-zh_cn
     volumes:
       - ./html:/var/www/html
     ports:
